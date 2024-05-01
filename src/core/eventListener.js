@@ -78,6 +78,7 @@ const getEventToObjectMap = (documentViewerKey = 1) => {
     deleteReply: annotManager,
     annotationHidden: annotManager,
     annotationDoubleClicked: annotManager,
+    annotationDoubleClickedFileSaveRequest:  annotManager,
     annotationNumberingUpdated: annotManager,
     annotationFiltered: annotManager,
     annotationToggled: annotManager,

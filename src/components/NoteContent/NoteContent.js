@@ -591,7 +591,7 @@ const ContentArea = ({
       e.target.focus();
       return;
     }
-    setCurAnnotId(undefined);
+    // setCurAnnotId(undefined);
   };
 
   const onFocus = () => {

@@ -168,7 +168,7 @@ const ReplyArea = ({ annotation, isUnread, onPendingReplyChange }) => {
 
   const onBlur = () => {
     setIsFocused(false);
-    setCurAnnotId(undefined);
+    // setCurAnnotId(undefined);
   };
 
   const onFocus = () => {

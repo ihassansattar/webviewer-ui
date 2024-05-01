@@ -85,7 +85,7 @@ const FileAttachmentPanel = ({ initialFiles = initialFilesDefault }) => {
         await tabManager.setActiveTab(newTabId);
       }, 100);
     } else {
-      return core.getAnnotationManager().trigger('annotationDoubleClicked', fileAttachmentAnnot);
+      return core.getAnnotationManager().trigger('annotationDoubleClickedFileSaveRequest', fileAttachmentAnnot);
     }
   };
 
